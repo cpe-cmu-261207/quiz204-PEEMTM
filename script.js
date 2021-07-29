@@ -15,11 +15,6 @@ btn_toggle.onclick = () => {
   for(let i=0;i <= texts.length;i++){
     if(texts.length >= number)
   }
-}
-
-// more codes for Search and Reset buttons here
-calculation.onclick = () => {
-  // your code here
   const task = document.createElement('div')
   const new = document.createElement('div')
   new.innerHTML = 630610770 - number
@@ -29,3 +24,5 @@ calculation.onclick = () => {
   task.append(btn)
   document.body.append(task)
 }
+
+// more codes for Search and Reset buttons here
